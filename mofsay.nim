@@ -13,10 +13,11 @@ proc say(mof: Mof): string =
   let bubble = fmt"""
   ________________________
 <           {mof.message}           >
-  ------------------------"""
+  ------------------------
+  """
 
   let donusagiAscii = fmt"""
-    {thoughts}
+  {thoughts}
      {thoughts}       /'\     /'\
       {thoughts}      ▏/\\   // \\
        {thoughts}    ▕ ▏ \\  ▏▏ |▕
@@ -37,7 +38,7 @@ proc say(mof: Mof): string =
                        `
   """
 
-  return bubble & "\n" & donusagiAscii
+  return bubble & donusagiAscii
 
 proc main(think=false, eyes="_-", message: seq[string]): int =
   let mof = Mof(
