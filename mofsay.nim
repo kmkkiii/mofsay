@@ -12,7 +12,7 @@ proc say(mof: Mof): string =
 
   let bubble = fmt"""
   ________________________
-<           {mof.message}           >
+<   {mof.message}     >
   ------------------------
   """
 
