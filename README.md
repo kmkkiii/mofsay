@@ -1,15 +1,20 @@
 # mofsay
 
-## Usage
+mofsay is a joke command that pays homage to cowsay. By passing a string as an argument, it allows you to make a ASCII art representation of a bunny, called 'don usagi', 'speak' or 'think' the string.
 
+### Usage
+
+```:shell
+$ mofsay
+$ mofsay -h
 ```
-$ ./mofsay -h 
-Usage:
-  main [optional-params] [message: string...]
-generates an ASCII picture of a donusagi saying something provided by the user
-Options:
-  -h, --help                    print this cligen-erated help
-  --help-syntax                 advanced: prepend,plurals,..
-  -t, --think    bool    false  set think
-  -e=, --eyes=   string  "_-"   set eyes
+
+### Installation
+
+```:shell
+$ nimble install -Y mofsay
 ```
+
+### LICENSE
+
+MIT
