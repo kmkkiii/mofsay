@@ -7,7 +7,7 @@ mofsay is a joke command that pays homage to cowsay. By passing a string as an a
 ### Usage
 
 ```:shell
-$ mofsay
+$ mofsay ${messages}
 $ mofsay -h
 ```
 
